@@ -1,3 +1,26 @@
-p {
-	background-color: red;
+.left{
+	padding-top: 20px;
+	float: left;
+	width: 45%;
+}
+.right{
+	padding-top: 20px;
+	float: right;
+	width: 45%;
+}
+
+img:hover{
+	border:5px solid white;
+}
+
+body{
+	background-color: black;
+	color: white;
+}
+
+h1{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	font-size: 48px;
 }
