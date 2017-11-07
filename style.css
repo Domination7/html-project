@@ -1,21 +1,29 @@
-.left{
-	padding-top: 20px;
+.col{
 	float: left;
-	width: 45%;
-}
-.right{
-	padding-top: 20px;
-	float: right;
-	width: 45%;
+	width: 50%;
 }
 
-img:hover{
-	border:5px solid white;
+.col img{
+	margin: auto;
+	display: block;
+	width: 90%;
+	height: 90%;
+}
+
+.col img:hover{
+	border: 1px solid white;
+}
+
+.clickIMG{
+	padding-left: 20px;
+	padding-top: 20px;
+	box-sizing: border-box;
 }
 
 body{
 	background-color: black;
 	color: white;
+	cursor:crosshair;
 }
 
 h1{
@@ -23,4 +31,5 @@ h1{
 	padding-top: 50px;
 	padding-bottom: 40px;
 	font-size: 48px;
+	font-family: "Courier Header";
 }
