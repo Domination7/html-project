@@ -29,11 +29,21 @@
 	text-align: center;
 	margin: auto;
 	display: block;
+	padding: 15px;
 }
 
 .back{
 	background-color: white;
 	padding: 5px;
+}
+
+
+.moon{
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	padding-top: 30px;
+	padding-left: 30px; 
 }
 
 body{
