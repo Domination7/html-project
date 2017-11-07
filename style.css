@@ -20,10 +20,26 @@
 	box-sizing: border-box;
 }
 
+.mainText{
+	border: 1px solid white;
+	font-family: "Courier";
+	font-size: 18px;
+	color: white;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+
+.back{
+	background-color: white;
+	padding: 5px;
+}
+
 body{
 	background-color: black;
 	color: white;
-	cursor:crosshair;
+	cursor: crosshair;
 }
 
 h1{
@@ -32,4 +48,11 @@ h1{
 	padding-bottom: 40px;
 	font-size: 48px;
 	font-family: "Courier Header";
+}
+
+h2{
+	text-align: center;
+	font-size: 36px;
+	font-family: "Courier Header";
+	font-style: italic:
 }
