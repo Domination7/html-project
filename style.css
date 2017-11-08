@@ -20,6 +20,15 @@
 	box-sizing: border-box;
 }
 
+.unmanned img{
+	margin: auto;
+	display: block;
+}
+
+.unmanned img:hover{
+	border: 1px solid white;
+}
+
 .mainText{
 	border: 1px solid white;
 	font-family: "Courier";
@@ -48,6 +57,7 @@
 
 body{
 	background-color: black;
+	background-image: url("spacePictures/deepSpace.jpg");
 	color: white;
 	cursor: crosshair;
 }
