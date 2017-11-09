@@ -13,6 +13,7 @@
 
 .col img:hover{
 	border: 1px solid white;
+	cursor: url("spacePictures/nasa.png"), auto;
 }
 
 .clickIMG{
@@ -28,6 +29,7 @@
 
 .unmanned img:hover{
 	border: 1px solid white;
+	cursor: url("spacePictures/nasa.png"), auto;
 }
 
 .mainText{
@@ -69,7 +71,7 @@ body{
 	background-color: black;
 	background-image: url("spacePictures/deepSpace.jpg");
 	color: white;
-	cursor: crosshair;
+	cursor: url("spacePictures/nasa.png"), auto;
 }
 
 h1{
